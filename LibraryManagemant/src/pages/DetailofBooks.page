@@ -1,0 +1,23 @@
+<apex:page standardController="Book__c" recordSetVar="Books">
+    
+    <apex:form >
+        
+      <apex:pageBlock >      
+        
+        <apex:pageBlockTable cellpadding="3" cellspacing="4" value="{!Books}" var="b">
+             <apex:column value="{!b.Name}" headerValue="Book Id"/><br/>           
+            <apex:column value="{!b.Subject__c}" headerValue="Subject"/><br/>
+            <apex:column value="{!b.Title__c}" headerValue="Title"/><br/>
+            <apex:column value="{!b.Author__c}" headerValue="Author"/><br/>
+            <apex:column value="{!b.Publisher__c}" headerValue="Publication"/>
+            <apex:column value="{!b.NumberOfBooks__c}" headerValue="Number Of Books"/><br/>
+            <apex:column value="{!b.Borrowed_Books__c}" headerValue="Borrowed_Books"/><br/>
+            <apex:column value="{!b.Available_Books__c}" headerValue="Available_Books"/><br/>
+          
+       </apex:pageBlockTable>
+        
+      </apex:pageBlock>
+             
+    </apex:form>
+       
+</apex:page>
