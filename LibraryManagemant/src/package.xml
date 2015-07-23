@@ -11,6 +11,7 @@
         <members>MemberDetails</members>
         <members>helloworld</members>
         <members>login</members>
+        <members>samplebranchtest</members>
         <name>ApexPage</name>
     </types>
     <types>
