@@ -5,5 +5,76 @@
         <members>login</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>BorrowDetails</members>
+        <members>DetailofBooks</members>
+        <members>MemberDetails</members>
+        <members>helloworld</members>
+        <members>login</members>
+        <members>samplebranchtest</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>NotDelBook</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Book__c.Author__c</members>
+        <members>Book__c.Available_Books__c</members>
+        <members>Book__c.Borrowed_Books__c</members>
+        <members>Book__c.NumberOfBooks__c</members>
+        <members>Book__c.Publisher__c</members>
+        <members>Book__c.Subject__c</members>
+        <members>Book__c.Title__c</members>
+        <members>Borrow__c.Book_Id__c</members>
+        <members>Borrow__c.Borrowed_Books__c</members>
+        <members>Borrow__c.DayOfBorrowed__c</members>
+        <members>Borrow__c.DayOfReturn__c</members>
+        <members>Borrow__c.Due_Date__c</members>
+        <members>Borrow__c.Fine__c</members>
+        <members>Borrow__c.MemberID__c</members>
+        <members>MemberID__c.Borrowed_Books__c</members>
+        <members>MemberID__c.Department__c</members>
+        <members>MemberID__c.EMAIL__c</members>
+        <members>MemberID__c.Mobile_Number__c</members>
+        <members>MemberID__c.NAME__c</members>
+        <members>MemberID__c.Required_Books__c</members>
+        <members>MemberID__c.Return_Books__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Book__c</members>
+        <members>Borrow__c</members>
+        <members>MemberID__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Book_Details</members>
+        <members>Book__c</members>
+        <members>Borrow_Details</members>
+        <members>Borrow__c</members>
+        <members>MemberID__c</members>
+        <members>Member_Details</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Book__c-Book Layout</members>
+        <members>Borrow__c-Borrow Layout</members>
+        <members>MemberID__c-MemberID Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Book__c.All</members>
+        <members>Borrow__c.All</members>
+        <members>MemberID__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Borrow__c.bname_eql_mname</members>
+        <members>Borrow__c.limit_borrow_books</members>
+        <members>MemberID__c.NumOfBooks</members>
+        <members>MemberID__c.limit_borrow_books</members>
+        <name>ValidationRule</name>
+    </types>
     <version>31.0</version>
 </Package>
